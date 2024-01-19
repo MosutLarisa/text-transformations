@@ -2,7 +2,7 @@
 {
     public static class TransformationEngine
     {
-        public static string ApplyAll(string text, params TextTransformations[] transformations)
+        public static string ApplyAll(string text, params TextTransformation[] transformations)
         {
             string result = text;
             foreach (var transformation in transformations)
